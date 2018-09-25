@@ -121,3 +121,8 @@ set tw=79
 set colorcolumn=80
 highlight ColorColumn ctermbg=233
 
+" activate CtrlP buffer power
+nnoremap <Leader>b :CtrlPBuffer<CR>
+
+"toggle nerdtree
+nnoremap <F2> :NERDTreeToggle<cr>
