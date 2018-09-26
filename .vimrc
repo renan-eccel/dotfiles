@@ -23,6 +23,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
+Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -126,3 +127,8 @@ nnoremap <Leader>b :CtrlPBuffer<CR>
 
 "toggle nerdtree
 nnoremap <F2> :NERDTreeToggle<cr>
+
+"toggle the cursorline while in Insert mode
+:autocmd InsertEnter * set cul
+:autocmd InsertLeave * set nocul
+
