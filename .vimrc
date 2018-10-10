@@ -115,12 +115,10 @@ vnoremap <Leader>s :sort<CR>
 vnoremap < <gv
 vnoremap > >gv
 
-" Showing line length
-set tw=79
-" set nowrap
-" set fo-=t
-set colorcolumn=80
-highlight ColorColumn ctermbg=233
+au BufNewFile,BufRead *.py
+ \ set tw=79 |
+ \ set colorcolumn=80 | 
+ \ highlight ColorColumn ctermbg=233 |
 
 " activate CtrlP buffer power
 nnoremap <Leader>b :CtrlPBuffer<CR>
@@ -132,3 +130,5 @@ nnoremap <F2> :NERDTreeToggle<cr>
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul
 
+" insert a line withou entering Insert mode
+nnoremap <CR> i<CR><Esc>
