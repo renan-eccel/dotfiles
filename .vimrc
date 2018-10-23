@@ -24,6 +24,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-surround'
+" Plugin 'vim-latex/vim-latex'
+Plugin 'xuhdev/vim-latex-live-preview'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -60,13 +62,23 @@ au BufNewFile,BufRead *.py
     \ set textwidth=79 |
     \ set expandtab |
     \ set autoindent |
-    \ set fileformat=unix
+    \ set fileformat=unix |
+
+" .tex file indentation
+au BufNewFile,BufRead *.tex
+    \ set tabstop=2 |
+    \ set softtabstop=2 |
+    \ set shiftwidth=2 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix |
 
 " other files identation
 au BufNewFile,BufRead *.js, *.html, *.css
     \ set tabstop=2 |
     \ set softtabstop=2 |
-    \ set shiftwidth=2 
+    \ set shiftwidth=2 |
 
 " set encoding
 set encoding=utf-8
@@ -81,7 +93,7 @@ syntax on
 
 " show whitespace
 " MUST be inserted BEFORE the colorscheme command
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red 
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red
 au InsertLeave * match ExtraWhitespace /\s\+$/
 
 " colorscheme
@@ -91,7 +103,7 @@ colorscheme gruvbox
 set termguicolors
 
 " line numbering
-set ruler 
+set ruler
 set nu
 :set number relativenumber
 :augroup numbertoggle
@@ -115,9 +127,16 @@ vnoremap <Leader>s :sort<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+" set color column to limit text width
 au BufNewFile,BufRead *.py
  \ set tw=79 |
- \ set colorcolumn=80 | 
+ \ set colorcolumn=80 |
+ \ highlight ColorColumn ctermbg=233 |
+
+" set color column to limit text width
+au BufNewFile,BufRead *.tex
+ \ set tw=77 |
+ \ set colorcolumn=78 |
  \ highlight ColorColumn ctermbg=233 |
 
 " activate CtrlP buffer power
@@ -132,3 +151,13 @@ nnoremap <F2> :NERDTreeToggle<cr>
 
 " insert a line withou entering Insert mode
 nnoremap <CR> i<CR><Esc>
+
+"=========================================================================
+" latex
+"=========================================================================
+" Set the vim option updatetime to a smallet value, which is the fequency
+" that the output PDF is updated
+autocmd Filetype tex setl updatetime=1
+
+" Set the PDF viewer. Using Preview.
+let g:livepreview_previewer = 'okular'
