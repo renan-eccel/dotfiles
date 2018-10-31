@@ -17,14 +17,14 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
-Plugin 'vim-syntastic/syntastic'
+" linting
+Plugin 'w0rp/ale'
 Plugin 'nvie/vim-flake8'
 Plugin 'morhetz/gruvbox'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-surround'
-" Plugin 'vim-latex/vim-latex'
 Plugin 'xuhdev/vim-latex-live-preview'
 
 " All of your Plugins must be added before the following line
@@ -133,12 +133,6 @@ au BufNewFile,BufRead *.py
  \ set colorcolumn=80 |
  \ highlight ColorColumn ctermbg=233 |
 
-" set color column to limit text width
-au BufNewFile,BufRead *.tex
- \ set tw=77 |
- \ set colorcolumn=78 |
- \ highlight ColorColumn ctermbg=233 |
-
 " activate CtrlP buffer power
 nnoremap <Leader>b :CtrlPBuffer<CR>
 
@@ -161,3 +155,9 @@ autocmd Filetype tex setl updatetime=1
 
 " Set the PDF viewer. Using Preview.
 let g:livepreview_previewer = 'okular'
+
+" set color column to limit text width
+au BufNewFile,BufRead *.tex
+ \ set spell spelllang=en_us |
+ \ set colorcolumn=80 |
+ \ highlight ColorColumn ctermbg=233 |
