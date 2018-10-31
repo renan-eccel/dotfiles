@@ -16,16 +16,16 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
-Bundle 'Valloric/YouCompleteMe'
-" linting
-Plugin 'w0rp/ale'
-Plugin 'nvie/vim-flake8'
-Plugin 'morhetz/gruvbox'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'tpope/vim-surround'
+Bundle 'Valloric/YouCompleteMe' 
+Plugin 'w0rp/ale' "linter
+Plugin 'nvie/vim-flake8' " python linter
+Plugin 'morhetz/gruvbox' " colorscheme
+Plugin 'scrooloose/nerdtree' " Tree file navigation
+Plugin 'kien/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
+Plugin 'vim-airline/vim-airline' " status/tabline
+Plugin 'tpope/vim-surround' " surround things with other things
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'lervag/vimtex'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -54,26 +54,6 @@ set foldlevel=99
 " Enable folding with the spacebar
 nnoremap <space> za
 
-" python PEP 8 identation
-au BufNewFile,BufRead *.py
-    \ set tabstop=4 |
-    \ set softtabstop=4 |
-    \ set shiftwidth=4 |
-    \ set textwidth=79 |
-    \ set expandtab |
-    \ set autoindent |
-    \ set fileformat=unix |
-
-" .tex file indentation
-au BufNewFile,BufRead *.tex
-    \ set tabstop=2 |
-    \ set softtabstop=2 |
-    \ set shiftwidth=2 |
-    \ set textwidth=79 |
-    \ set expandtab |
-    \ set autoindent |
-    \ set fileformat=unix |
-
 " other files identation
 au BufNewFile,BufRead *.js, *.html, *.css
     \ set tabstop=2 |
@@ -86,10 +66,6 @@ set encoding=utf-8
 " YouCompleteMe configuration
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
-
-" python syntax highlight
-let python_highlight_all=1
-syntax on
 
 " show whitespace
 " MUST be inserted BEFORE the colorscheme command
@@ -127,12 +103,6 @@ vnoremap <Leader>s :sort<CR>
 vnoremap < <gv
 vnoremap > >gv
 
-" set color column to limit text width
-au BufNewFile,BufRead *.py
- \ set tw=79 |
- \ set colorcolumn=80 |
- \ highlight ColorColumn ctermbg=233 |
-
 " activate CtrlP buffer power
 nnoremap <Leader>b :CtrlPBuffer<CR>
 
@@ -145,6 +115,36 @@ nnoremap <F2> :NERDTreeToggle<cr>
 
 " insert a line withou entering Insert mode
 nnoremap <CR> i<CR><Esc>
+if empty(v:servername) && exists('*remote_startserver')
+  call remote_startserver('VIM')
+endif
+
+" ALE map next and previous wornings
+nmap <silent> <leader>aj :ALENext<cr>
+nmap <silent> <leader>ak :ALEPrevious<cr>
+
+"=========================================================================
+" python
+"=========================================================================
+" set color column to limit text width
+au BufNewFile,BufRead *.py
+ \ set tw=79 |
+ \ set colorcolumn=80 |
+ \ highlight ColorColumn ctermbg=233 |
+
+" python syntax highlight
+let python_highlight_all=1
+syntax on
+
+" python PEP 8 identation
+au BufNewFile,BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix |
 
 "=========================================================================
 " latex
@@ -161,3 +161,13 @@ au BufNewFile,BufRead *.tex
  \ set spell spelllang=en_us |
  \ set colorcolumn=80 |
  \ highlight ColorColumn ctermbg=233 |
+
+" .tex file indentation
+au BufNewFile,BufRead *.tex
+    \ set tabstop=2 |
+    \ set softtabstop=2 |
+    \ set shiftwidth=2 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix |
