@@ -1,6 +1,9 @@
 set nocompatible              " required
 filetype off                  " required
 
+" TO USE THIS CONFIGURATION IN NEOVIM YOU NEED TO FOLLOW THE STEPS
+" DENOTE AT :h nvim-from-vim
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -17,7 +20,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe' 
-Plugin 'w0rp/ale' "linter
+Plugin 'w0rp/ale' "linter, need to install tool for each language
 Plugin 'nvie/vim-flake8' " python linter
 Plugin 'morhetz/gruvbox' " colorscheme
 Plugin 'scrooloose/nerdtree' " Tree file navigation
@@ -153,12 +156,12 @@ au BufNewFile,BufRead *.py
 " that the output PDF is updated
 autocmd Filetype tex setl updatetime=1
 
-" Set the PDF viewer. Using Preview.
+" Set the PDF viewer. Using okular.
 let g:livepreview_previewer = 'okular'
 
 " set color column to limit text width
 au BufNewFile,BufRead *.tex
- \ set spell spelllang=en_us |
+ \ set spell |
  \ set colorcolumn=80 |
  \ highlight ColorColumn ctermbg=233 |
 
