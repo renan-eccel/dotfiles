@@ -32,11 +32,8 @@ Plugin 'scrooloose/nerdtree' " Tree file navigation
 Plugin 'kien/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'vim-airline/vim-airline' " status/tabline
 Plugin 'machakann/vim-sandwich' " surround things with other things
-Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'lervag/vimtex' " latex integration
-Plugin 'tpope/vim-repeat' " enable reapeating supported plugin maps with '.'
-
-
+Plugin 'tpope/vim-repeat' " enable repeating supported plugin maps with '.'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -45,7 +42,7 @@ filetype plugin indent on    " required
 " automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
 
-" redind Leader key
+" defining Leader key
 let mapleader = ","
 
 " better split
@@ -65,7 +62,7 @@ set foldlevel=99
 " Enable folding with the spacebar
 nnoremap <space> za
 
-" other files identation
+" other files indentation
 au BufNewFile,BufRead *.js, *.html, *.css
     \ set tabstop=2 |
     \ set softtabstop=2 |
@@ -124,13 +121,13 @@ nnoremap <F2> :NERDTreeToggle<cr>
 :autocmd InsertEnter * set cul
 :autocmd InsertLeave * set nocul
 
-" insert a line withou entering Insert mode
+" insert a line without entering Insert mode
 nnoremap <CR> i<CR><Esc>
 if empty(v:servername) && exists('*remote_startserver')
   call remote_startserver('VIM')
 endif
 
-" ALE map next and previous wornings
+" ALE map next and previous warnings
 nmap <silent> <leader>aj :ALENext<cr>
 nmap <silent> <leader>ak :ALEPrevious<cr>
 
