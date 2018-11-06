@@ -4,6 +4,12 @@ filetype off                  " required
 " TO USE THIS CONFIGURATION IN NEOVIM YOU NEED TO FOLLOW THE STEPS
 " DENOTE AT :h nvim-from-vim
 
+" TO USE THE linters for python and latex semantic checkers you need
+" to install them first
+" sudo apt install flake8 (for python)
+" sudo apt install chktex (for tex)
+
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -21,14 +27,16 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe' 
 Plugin 'w0rp/ale' "linter, need to install tool for each language
-Plugin 'nvie/vim-flake8' " python linter
 Plugin 'morhetz/gruvbox' " colorscheme
 Plugin 'scrooloose/nerdtree' " Tree file navigation
 Plugin 'kien/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'vim-airline/vim-airline' " status/tabline
-Plugin 'tpope/vim-surround' " surround things with other things
+Plugin 'machakann/vim-sandwich' " surround things with other things
 Plugin 'xuhdev/vim-latex-live-preview'
-Plugin 'lervag/vimtex'
+Plugin 'lervag/vimtex' " latex integration
+Plugin 'tpope/vim-repeat' " enable reapeating supported plugin maps with '.'
+
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
