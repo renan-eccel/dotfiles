@@ -29,7 +29,7 @@ Bundle 'Valloric/YouCompleteMe'
 Plugin 'w0rp/ale' "linter, need to install tool for each language
 Plugin 'morhetz/gruvbox' " colorscheme
 Plugin 'scrooloose/nerdtree' " Tree file navigation
-Plugin 'kien/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
+Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'vim-airline/vim-airline' " status/tabline
 Plugin 'machakann/vim-sandwich' " surround things with other things
 Plugin 'lervag/vimtex' " latex integration
@@ -117,9 +117,8 @@ nnoremap <Leader>b :CtrlPBuffer<CR>
 "toggle nerdtree
 nnoremap <F2> :NERDTreeToggle<cr>
 
-"toggle the cursorline while in Insert mode
-:autocmd InsertEnter * set cul
-:autocmd InsertLeave * set nocul
+"toggle the cursorline 
+set cul
 
 " insert a line without entering Insert mode
 nnoremap <CR> i<CR><Esc>
