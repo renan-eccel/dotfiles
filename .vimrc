@@ -26,7 +26,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe' 
-Plugin 'w0rp/ale' "linter, need to install tool for each language
+" Plugin 'davidhalter/jedi-vim' " python autocompletion, goto, renaming, show docs
+Plugin 'w0rp/ale' " linter, need to install tool for each language
 Plugin 'morhetz/gruvbox' " colorscheme
 Plugin 'scrooloose/nerdtree' " Tree file navigation
 Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
@@ -129,6 +130,9 @@ endif
 " ALE map next and previous warnings
 nmap <silent> <leader>aj :ALENext<cr>
 nmap <silent> <leader>ak :ALEPrevious<cr>
+
+" YCM GetDoc
+nmap <silent> <S-k> :YcmCompleter GetDoc<cr>
 
 "=========================================================================
 " python
