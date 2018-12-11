@@ -23,7 +23,8 @@ Plugin 'gmarik/Vundle.vim'
 " add all your plugins here (note older versions of Vundle
 " used Bundle instead of Plugin)
 
-Plugin 'tmhedberg/SimpylFold'
+Plugin 'tpope/vim-sensible' " Defaults everyone can agree on
+Plugin 'tmhedberg/SimpylFold' 
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe' 
 " Plugin 'davidhalter/jedi-vim' " python autocompletion, goto, renaming, show docs
@@ -35,6 +36,7 @@ Plugin 'vim-airline/vim-airline' " status/tabline
 Plugin 'machakann/vim-sandwich' " surround things with other things
 Plugin 'lervag/vimtex' " latex integration
 Plugin 'tpope/vim-repeat' " enable repeating supported plugin maps with '.'
+Plugin 'christoomey/vim-tmux-navigator' " Seamless navigation between tmux panes and vim splits
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
