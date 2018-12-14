@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: qui dez 13 14:00:17 -02 2018
+#-- GENERATED: sex dez 14 10:55:05 -02 2018
 #-- ANTIGEN develop
 _antigen () {
 	local -a _1st_arguments
@@ -36,7 +36,7 @@ antigen () {
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git) path+=(/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git)
+fpath+=(/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib /home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/plugins/git) path+=(/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib /home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/plugins/git)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -i -d "/home/renan-eccel/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -48,27 +48,27 @@ if [[ -n "/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh" ]]; then
   ZSH="/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh"; ZSH_CACHE_DIR="/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/cache/"
 fi
 #--- BUNDLES BEGIN
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/refined.zsh-theme.antigen-compat';
-source '/home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme.antigen-compat';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/themes/refined.zsh-theme.antigen-compat';
+source '/home/renan-eccel/dotfiles/antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme.antigen-compat';
 
 #--- BUNDLES END
 typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git lib plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/git plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git themes/refined.zsh-theme theme true' 'https://github.com/robbyrussell/oh-my-zsh.git themes/robbyrussell.zsh-theme theme true')

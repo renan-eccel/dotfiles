@@ -497,3 +497,502 @@ antigen
 [LOG][1544716817.4206809998] Return from hook antigen-apply with 0
 [LOG][1544716817.4208447933] /home/renan-eccel/antigen/bin/antigen.zsh:1536
 [LOG][1544716817.4208447933] Return from hook antigen with 0
+[WRN][1544792105.5038337708] /home/renan-eccel/antigen/bin/antigen.zsh:266
+[WRN][1544792105.5038337708] -antigen-interactive-mode: file:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1544792105.5172853470] /home/renan-eccel/antigen/bin/antigen.zsh:1590
+[WRN][1544792105.5172853470] -antigen-lock-init return code was 0
+[LOG][1544792105.5173730850] /home/renan-eccel/antigen/bin/antigen.zsh:1592
+[LOG][1544792105.5173730850] LOADED EXTENSION lock EXT
+[WRN][1544792105.5186514854] /home/renan-eccel/antigen/bin/antigen.zsh:1702
+[WRN][1544792105.5186514854] Init parallel extension PARALLEL
+[WRN][1544792105.5187337399] /home/renan-eccel/antigen/bin/antigen.zsh:266
+[WRN][1544792105.5187337399] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1544792105.5188117027] /home/renan-eccel/antigen/bin/antigen.zsh:1590
+[WRN][1544792105.5188117027] -antigen-parallel-init return code was 0
+[LOG][1544792105.5188603401] /home/renan-eccel/antigen/bin/antigen.zsh:1592
+[LOG][1544792105.5188603401] LOADED EXTENSION parallel EXT
+[WRN][1544792105.5189101696] /home/renan-eccel/antigen/bin/antigen.zsh:1710
+[WRN][1544792105.5189101696] Exec parallel extension PARALLEL
+[WRN][1544792105.5191702843] /home/renan-eccel/antigen/bin/antigen.zsh:266
+[WRN][1544792105.5191702843] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1544792105.5192418098] /home/renan-eccel/antigen/bin/antigen.zsh:1590
+[WRN][1544792105.5192418098] -antigen-defer-init return code was 0
+[LOG][1544792105.5192883015] /home/renan-eccel/antigen/bin/antigen.zsh:1592
+[LOG][1544792105.5192883015] LOADED EXTENSION defer EXT
+[WRN][1544792105.5201015472] /home/renan-eccel/antigen/bin/antigen.zsh:266
+[WRN][1544792105.5201015472] -antigen-interactive-mode: file:file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1544792105.5202999115] /home/renan-eccel/antigen/bin/antigen.zsh:1590
+[WRN][1544792105.5202999115] -antigen-cache-init return code was 0
+[LOG][1544792105.5203490257] /home/renan-eccel/antigen/bin/antigen.zsh:1592
+[LOG][1544792105.5203490257] LOADED EXTENSION cache EXT
+[WRN][1544792105.5223562717] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5223562717] Updated meta: target antigen mode once type pre called 1
+[WRN][1544792105.5225293636] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5225293636] Processing hooks: antigen-lock
+[WRN][1544792105.5226414204] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5226414204] Pre hook: antigen-lock use oh-my-zsh
+[LOG][1544792105.5227582455] /home/renan-eccel/antigen/bin/antigen.zsh:4
+[LOG][1544792105.5227582455] antigen-lock called
+[WRN][1544792105.5228867531] /home/renan-eccel/antigen/bin/antigen.zsh:15
+[WRN][1544792105.5228867531] Creating antigen-lock file at /home/renan-eccel/.antigen/.lock
+[WRN][1544792105.5244858265] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5244858265] -antigen-hook-antigen use oh-my-zsh
+[WRN][1544792105.5264420509] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5264420509] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1544792105.5265665054] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5265665054] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1544792105.5266287327] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5266287327] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1544792105.5266923904] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5266923904] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1544792105.5267865658] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5267865658] Replace hook: antigen-bundle-defer --loc=lib
+[WRN][1544792105.5268626213] /home/renan-eccel/antigen/bin/antigen.zsh:1518
+[WRN][1544792105.5268626213] antigen-bundle-defer shortcircuited
+[LOG][1544792105.5269753933] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5269753933] Return from hook antigen with 0
+[WRN][1544792105.5271317959] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5271317959] Ignoring hook due to mode once: antigen-lock
+[WRN][1544792105.5271830559] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5271830559] Processing hooks: antigen-lock
+[WRN][1544792105.5272383690] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5272383690] -antigen-hook-antigen bundle git
+[WRN][1544792105.5273792744] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5273792744] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1544792105.5274665356] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5274665356] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1544792105.5275230408] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5275230408] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1544792105.5275707245] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5275707245] Pre hook: antigen-bundle-cached git
+[WRN][1544792105.5276544094] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5276544094] Replace hook: antigen-bundle-defer git
+[WRN][1544792105.5277223587] /home/renan-eccel/antigen/bin/antigen.zsh:1518
+[WRN][1544792105.5277223587] antigen-bundle-defer shortcircuited
+[LOG][1544792105.5278053284] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5278053284] Return from hook antigen with 0
+[WRN][1544792105.5279352665] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5279352665] Ignoring hook due to mode once: antigen-lock
+[WRN][1544792105.5279839039] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5279839039] Processing hooks: antigen-lock
+[WRN][1544792105.5280385017] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5280385017] -antigen-hook-antigen theme refined
+[WRN][1544792105.5282287598] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5282287598] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1544792105.5283186436] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5283186436] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1544792105.5283761024] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5283761024] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1544792105.5284247398] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5284247398] Pre hook: antigen-bundle-cached --loc=themes/refined --btype=theme
+[WRN][1544792105.5285170078] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5285170078] Replace hook: antigen-bundle-defer --loc=themes/refined --btype=theme
+[WRN][1544792105.5285854340] /home/renan-eccel/antigen/bin/antigen.zsh:1518
+[WRN][1544792105.5285854340] antigen-bundle-defer shortcircuited
+[LOG][1544792105.5286862850] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5286862850] Return from hook antigen with 0
+[WRN][1544792105.5288162231] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5288162231] Ignoring hook due to mode once: antigen-lock
+[WRN][1544792105.5288641453] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5288641453] Processing hooks: antigen-lock
+[WRN][1544792105.5289170742] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5289170742] -antigen-hook-antigen theme robbyrussell
+[WRN][1544792105.5291082859] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5291082859] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1544792105.5292158127] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5292158127] Updated meta: target antigen-bundle mode repeat type pre called 4
+[WRN][1544792105.5292704105] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5292704105] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1544792105.5293166637] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5293166637] Pre hook: antigen-bundle-cached --loc=themes/robbyrussell --btype=theme
+[WRN][1544792105.5293989182] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5293989182] Replace hook: antigen-bundle-defer --loc=themes/robbyrussell --btype=theme
+[WRN][1544792105.5294654369] /home/renan-eccel/antigen/bin/antigen.zsh:1518
+[WRN][1544792105.5294654369] antigen-bundle-defer shortcircuited
+[LOG][1544792105.5295712948] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5295712948] Return from hook antigen with 0
+[WRN][1544792105.5296967030] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5296967030] Ignoring hook due to mode once: antigen-lock
+[WRN][1544792105.5297436714] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5297436714] Processing hooks: antigen-lock
+[WRN][1544792105.5297951698] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5297951698] -antigen-hook-antigen apply
+[WRN][1544792105.5299315453] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5299315453] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1544792105.5300128460] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5300128460] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1544792105.5300922394] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5300922394] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1544792105.5301702023] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5301702023] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1544792105.5302467346] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5302467346] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1544792105.5303008556] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5303008556] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1544792105.5303471088] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5303471088] Pre hook: antigen-apply-parallel
+[WRN][1544792105.5304129124] /home/renan-eccel/antigen/bin/antigen.zsh:53
+[WRN][1544792105.5304129124] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1544792105.5305480957] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5305480957] Pre hook: antigen-apply-defer
+[WRN][1544792105.5306077003] /home/renan-eccel/antigen/bin/antigen.zsh:10
+[WRN][1544792105.5306077003] Defer pre-apply DEFER PRE-APPLY
+[LOG][1544792105.5307400227] /home/renan-eccel/antigen/bin/antigen.zsh:16
+[LOG][1544792105.5307400227] Processing deferred bundle: --loc=lib DEFER
+[WRN][1544792105.5308561325] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5308561325] Updated meta: target antigen-bundle mode repeat type pre called 5
+[WRN][1544792105.5309522152] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5309522152] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1544792105.5310211182] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5310211182] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1544792105.5310664177] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5310664177] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1544792105.5311474800] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5311474800] Replace hook: antigen-bundle-parallel --loc=lib
+[TRA][1544792105.5312054157] /home/renan-eccel/.zshrc:5
+[TRA][1544792105.5312054157] antigen-bundle-parallel: --loc=lib PARALLEL
+[TRA][1544792105.5312054157] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5312714577] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5312714577] Replaced hooked function.
+[LOG][1544792105.5313181877] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5313181877] Return from hook antigen-bundle with 0
+[LOG][1544792105.5313818455] /home/renan-eccel/antigen/bin/antigen.zsh:16
+[LOG][1544792105.5313818455] Processing deferred bundle: git DEFER
+[WRN][1544792105.5314927101] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5314927101] Updated meta: target antigen-bundle mode repeat type pre called 6
+[WRN][1544792105.5315706730] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5315706730] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1544792105.5316245556] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5316245556] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1544792105.5316855907] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5316855907] Pre hook: antigen-bundle-cached git
+[WRN][1544792105.5317637920] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5317637920] Replace hook: antigen-bundle-parallel git
+[TRA][1544792105.5318136215] /home/renan-eccel/.zshrc:5
+[TRA][1544792105.5318136215] antigen-bundle-parallel: git PARALLEL
+[TRA][1544792105.5318136215] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5318779945] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5318779945] Replaced hooked function.
+[LOG][1544792105.5319242477] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5319242477] Return from hook antigen-bundle with 0
+[LOG][1544792105.5319876671] /home/renan-eccel/antigen/bin/antigen.zsh:16
+[LOG][1544792105.5319876671] Processing deferred bundle: --loc=themes/refined --btype=theme DEFER
+[WRN][1544792105.5320994854] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5320994854] Updated meta: target antigen-bundle mode repeat type pre called 7
+[WRN][1544792105.5321860313] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5321860313] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1544792105.5322475433] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5322475433] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1544792105.5322937965] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5322937965] Pre hook: antigen-bundle-cached --loc=themes/refined --btype=theme
+[WRN][1544792105.5323743820] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5323743820] Replace hook: antigen-bundle-parallel --loc=themes/refined --btype=theme
+[TRA][1544792105.5324249268] /home/renan-eccel/.zshrc:5
+[TRA][1544792105.5324249268] antigen-bundle-parallel: --loc=themes/refined --btype=theme PARALLEL
+[TRA][1544792105.5324249268] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5324902534] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5324902534] Replaced hooked function.
+[LOG][1544792105.5325367451] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5325367451] Return from hook antigen-bundle with 0
+[LOG][1544792105.5326011181] /home/renan-eccel/antigen/bin/antigen.zsh:16
+[LOG][1544792105.5326011181] Processing deferred bundle: --loc=themes/robbyrussell --btype=theme DEFER
+[WRN][1544792105.5327179432] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5327179432] Updated meta: target antigen-bundle mode repeat type pre called 8
+[WRN][1544792105.5327966213] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5327966213] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1544792105.5328509808] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5328509808] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1544792105.5328965187] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5328965187] Pre hook: antigen-bundle-cached --loc=themes/robbyrussell --btype=theme
+[WRN][1544792105.5329763889] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5329763889] Replace hook: antigen-bundle-parallel --loc=themes/robbyrussell --btype=theme
+[TRA][1544792105.5330269337] /home/renan-eccel/.zshrc:5
+[TRA][1544792105.5330269337] antigen-bundle-parallel: --loc=themes/robbyrussell --btype=theme PARALLEL
+[TRA][1544792105.5330269337] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5331296921] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5331296921] Replaced hooked function.
+[LOG][1544792105.5331776142] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5331776142] Return from hook antigen-bundle with 0
+[WRN][1544792105.5332667828] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5332667828] Replace hook: antigen-apply-parallel-execute
+[WRN][1544792105.5333163738] /home/renan-eccel/antigen/bin/antigen.zsh:65
+[WRN][1544792105.5333163738] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1544792105.5334551334] /home/renan-eccel/antigen/bin/antigen.zsh:4
+[WRN][1544792105.5334551334] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1544792105.5335080624] /home/renan-eccel/antigen/bin/antigen.zsh:8
+[WRN][1544792105.5335080624] Gonna install in parallel 4 bundles. PARALLEL
+[WRN][1544792105.5335516930] /home/renan-eccel/antigen/bin/antigen.zsh:10
+[WRN][1544792105.5335516930] --loc=lib git --loc=themes/refined --btype=theme --loc=themes/robbyrussell --btype=theme PARALLEL
+[WRN][1544792105.5339655876] /home/renan-eccel/antigen/bin/antigen.zsh:24
+[WRN][1544792105.5339655876] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1544792105.5342931747] /home/renan-eccel/antigen/bin/antigen.zsh:24
+[WRN][1544792105.5342931747] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1544792105.5346095562] /home/renan-eccel/antigen/bin/antigen.zsh:24
+[WRN][1544792105.5346095562] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1544792105.5349366665] /home/renan-eccel/antigen/bin/antigen.zsh:24
+[WRN][1544792105.5349366665] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1544792105.5351021290] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5351021290] Updated meta: target antigen-bundle mode repeat type pre called 9
+[WRN][1544792105.5351629257] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5351629257] Processing hooks: antigen-bundle-cached
+[WRN][1544792105.5352120399] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5352120399] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1544792105.5352907181] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5352907181] -antigen-hook-antigen-bundle --loc=lib
+[TRA][1544792105.5353467464] /home/renan-eccel/antigen/bin/antigen.zsh:2
+[TRA][1544792105.5353467464] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1544792105.5353467464] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5360097885] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5360097885] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1544792105.5360853672] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5360853672] Processing hooks: -antigen-load-env-cached
+[WRN][1544792105.5361583233] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5361583233] Replace hook: -antigen-load-env-cached dir /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc lib name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1544792105.5362658501] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5362658501] Replaced hooked function.
+[LOG][1544792105.5363247395] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5363247395] Return from hook -antigen-load-env with 0
+[WRN][1544792105.5365617275] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5365617275] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1544792105.5366265774] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5366265774] Processing hooks: -antigen-load-source-cached
+[WRN][1544792105.5367102623] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5367102623] Replace hook: -antigen-load-source-cached /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh
+[WRN][1544792105.5368418694] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5368418694] Replaced hooked function.
+[LOG][1544792105.5368936062] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5368936062] Return from hook -antigen-load-source with 0
+[LOG][1544792105.5369939804] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5369939804] Return from hook antigen-bundle with 0
+[WRN][1544792105.5371487141] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5371487141] Updated meta: target antigen-bundle mode repeat type pre called 10
+[WRN][1544792105.5372154713] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5372154713] Processing hooks: antigen-bundle-cached
+[WRN][1544792105.5372636318] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5372636318] Pre hook: antigen-bundle-cached git
+[WRN][1544792105.5373404026] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5373404026] -antigen-hook-antigen-bundle git
+[TRA][1544792105.5373923779] /home/renan-eccel/antigen/bin/antigen.zsh:2
+[TRA][1544792105.5373923779] Called antigen-bundle with git BUNDLE
+[TRA][1544792105.5373923779] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5379552841] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5379552841] Updated meta: target -antigen-load-env mode repeat type replace called 2
+[WRN][1544792105.5380184650] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5380184650] Processing hooks: -antigen-load-env-cached
+[WRN][1544792105.5380887985] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5380887985] Replace hook: -antigen-load-env-cached dir /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/git name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1544792105.5381922722] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5381922722] Replaced hooked function.
+[LOG][1544792105.5382428169] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5382428169] Return from hook -antigen-load-env with 0
+[WRN][1544792105.5383849144] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5383849144] Updated meta: target -antigen-load-source mode repeat type replace called 2
+[WRN][1544792105.5384435654] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5384435654] Processing hooks: -antigen-load-source-cached
+[WRN][1544792105.5385060310] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5385060310] Replace hook: -antigen-load-source-cached /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh
+[WRN][1544792105.5385746956] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5385746956] Replaced hooked function.
+[LOG][1544792105.5386242867] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5386242867] Return from hook -antigen-load-source with 0
+[LOG][1544792105.5387167931] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5387167931] Return from hook antigen-bundle with 0
+[WRN][1544792105.5388541222] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5388541222] Updated meta: target antigen-bundle mode repeat type pre called 11
+[WRN][1544792105.5389108658] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5389108658] Processing hooks: antigen-bundle-cached
+[WRN][1544792105.5389583111] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5389583111] Pre hook: antigen-bundle-cached --loc=themes/refined --btype=theme
+[WRN][1544792105.5390362740] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5390362740] -antigen-hook-antigen-bundle --loc=themes/refined --btype=theme
+[TRA][1544792105.5390875340] /home/renan-eccel/antigen/bin/antigen.zsh:2
+[TRA][1544792105.5390875340] Called antigen-bundle with --loc=themes/refined --btype=theme BUNDLE
+[TRA][1544792105.5390875340] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5397257805] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5397257805] Updated meta: target -antigen-load-env mode repeat type replace called 3
+[WRN][1544792105.5397994518] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5397994518] Processing hooks: -antigen-load-env-cached
+[WRN][1544792105.5398750305] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5398750305] Replace hook: -antigen-load-env-cached dir /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh btype theme url https://github.com/robbyrussell/oh-my-zsh.git loc themes/refined.zsh-theme name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1544792105.5399839878] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5399839878] Replaced hooked function.
+[LOG][1544792105.5400371552] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5400371552] Return from hook -antigen-load-env with 0
+[WRN][1544792105.5401852131] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5401852131] Updated meta: target -antigen-load-source mode repeat type replace called 3
+[WRN][1544792105.5402548313] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5402548313] Processing hooks: -antigen-load-source-cached
+[WRN][1544792105.5403203964] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5403203964] Replace hook: -antigen-load-source-cached /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/refined.zsh-theme
+[WRN][1544792105.5403933525] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5403933525] Replaced hooked function.
+[LOG][1544792105.5404515266] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5404515266] Return from hook -antigen-load-source with 0
+[LOG][1544792105.5405516624] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5405516624] Return from hook antigen-bundle with 0
+[WRN][1544792105.5406980515] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5406980515] Updated meta: target antigen-bundle mode repeat type pre called 12
+[WRN][1544792105.5407636166] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5407636166] Processing hooks: antigen-bundle-cached
+[WRN][1544792105.5408155918] /home/renan-eccel/antigen/bin/antigen.zsh:1505
+[WRN][1544792105.5408155918] Pre hook: antigen-bundle-cached --loc=themes/robbyrussell --btype=theme
+[WRN][1544792105.5409035683] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5409035683] -antigen-hook-antigen-bundle --loc=themes/robbyrussell --btype=theme
+[TRA][1544792105.5409622192] /home/renan-eccel/antigen/bin/antigen.zsh:2
+[TRA][1544792105.5409622192] Called antigen-bundle with --loc=themes/robbyrussell --btype=theme BUNDLE
+[TRA][1544792105.5409622192] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[WRN][1544792105.5416281223] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5416281223] Updated meta: target -antigen-load-env mode repeat type replace called 4
+[WRN][1544792105.5417680740] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5417680740] Processing hooks: -antigen-load-env-cached
+[WRN][1544792105.5418546200] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5418546200] Replace hook: -antigen-load-env-cached dir /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh btype theme url https://github.com/robbyrussell/oh-my-zsh.git loc themes/robbyrussell.zsh-theme name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1544792105.5419623852] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5419623852] Replaced hooked function.
+[LOG][1544792105.5420184135] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5420184135] Return from hook -antigen-load-env with 0
+[WRN][1544792105.5421769619] /home/renan-eccel/antigen/bin/antigen.zsh:1487
+[WRN][1544792105.5421769619] Updated meta: target -antigen-load-source mode repeat type replace called 4
+[WRN][1544792105.5422441959] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5422441959] Processing hooks: -antigen-load-source-cached
+[WRN][1544792105.5423095226] /home/renan-eccel/antigen/bin/antigen.zsh:1516
+[WRN][1544792105.5423095226] Replace hook: -antigen-load-source-cached /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme
+[WRN][1544792105.5423810482] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5423810482] Replaced hooked function.
+[LOG][1544792105.5424325466] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5424325466] Return from hook -antigen-load-source with 0
+[LOG][1544792105.5425698757] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5425698757] Return from hook antigen-bundle with 0
+[WRN][1544792105.5427210331] /home/renan-eccel/antigen/bin/antigen.zsh:48
+[WRN][1544792105.5427210331] Parallel install done PARALLEL
+[WRN][1544792105.5430004597] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5430004597] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1544792105.5430862904] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5430862904] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1544792105.5431678295] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5431678295] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1544792105.5432469845] /home/renan-eccel/antigen/bin/antigen.zsh:1480
+[WRN][1544792105.5432469845] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1544792105.5433108807] /home/renan-eccel/antigen/bin/antigen.zsh:1502
+[WRN][1544792105.5433108807] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1544792105.5433816910] /home/renan-eccel/antigen/bin/antigen.zsh:1523
+[WRN][1544792105.5433816910] -antigen-hook-antigen-apply 
+[LOG][1544792105.5434451103] /home/renan-eccel/antigen/bin/antigen.zsh:2
+[LOG][1544792105.5434451103] Called antigen-apply
+[TRA][1544792105.5435030460] /home/renan-eccel/antigen/bin/antigen.zsh:3
+[TRA][1544792105.5435030460] Gonna create compdump file @ apply COMPDUMP
+[TRA][1544792105.5435030460] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/renan-eccel/.zshrc
+[LOG][1544792105.5667352676] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.5667352676] Return from hook antigen-apply with 0
+[WRN][1544792105.5669181347] /home/renan-eccel/antigen/bin/antigen.zsh:1527
+[WRN][1544792105.5669181347] Replaced hooked function.
+[WRN][1544792105.5669758320] /home/renan-eccel/antigen/bin/antigen.zsh:1531
+[WRN][1544792105.5669758320] Post hook: antigen-apply-lock
+[WRN][1544792105.5670325756] /home/renan-eccel/antigen/bin/antigen.zsh:22
+[WRN][1544792105.5670325756] Freeing antigen-lock file at /home/renan-eccel/.antigen/.lock
+[WRN][1544792105.5681691170] /home/renan-eccel/antigen/bin/antigen.zsh:1531
+[WRN][1544792105.5681691170] Post hook: antigen-apply-cached
+[LOG][1544792105.5682513714] /home/renan-eccel/antigen/bin/antigen.zsh:7
+[LOG][1544792105.5682513714] TRACE: /home/renan-eccel/antigen/bin/antigen.zsh:1532 /home/renan-eccel/antigen/bin/antigen.zsh:2 /home/renan-eccel/antigen/bin/antigen.zsh:11 /home/renan-eccel/antigen/bin/antigen.zsh:1524 /home/renan-eccel/antigen/bin/antigen.zsh:2 /home/renan-eccel/.zshrc:16 zsh:0
+[LOG][1544792105.5684127808] /home/renan-eccel/antigen/bin/antigen.zsh:1805
+[LOG][1544792105.5684127808] Gonna generate cache for /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/refined.zsh-theme /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/refined.zsh-theme /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme /home/renan-eccel/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme
+[LOG][1544792105.5913600922] /home/renan-eccel/antigen/bin/antigen.zsh:1863
+[LOG][1544792105.5913600922] CHECK_FILES /home/renan-eccel/.zshrc /home/renan-eccel/.zshrc
+[LOG][1544792105.6235418320] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.6235418320] Return from hook antigen-apply with 0
+[LOG][1544792105.6237409115] /home/renan-eccel/antigen/bin/antigen.zsh:1536
+[LOG][1544792105.6237409115] Return from hook antigen with 0
