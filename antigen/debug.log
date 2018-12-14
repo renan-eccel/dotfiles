@@ -497,6 +497,7 @@ antigen
 [LOG][1544716817.4206809998] Return from hook antigen-apply with 0
 [LOG][1544716817.4208447933] /home/renan-eccel/antigen/bin/antigen.zsh:1536
 [LOG][1544716817.4208447933] Return from hook antigen with 0
+<<<<<<< HEAD
 [WRN][1544728759.3919501305] /home/renan-eccel/antigen/bin/antigen.zsh:266
 [WRN][1544728759.3919501305] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
 [TRA][1544728759.3920433521] /home/renan-eccel/antigen/bin/antigen.zsh:481
