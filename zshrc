@@ -1,16 +1,20 @@
-source ./antigen/antigen.zsh
+source ~/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
 
 # Syntax highlighting bundle.
-antigen theme refined
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme refined
 
 # Tell Antigen that you're done.
 antigen apply
@@ -32,3 +36,6 @@ compinit
 
 # creates a key-binding for reverse-i-search (Ctrl+R)
 bindkey '^R' history-incremental-search-backward
+
+# adds miniconda to PATH
+PATH="$HOME/miniconda3/bin:$PATH"
