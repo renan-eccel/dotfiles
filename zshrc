@@ -9,6 +9,7 @@ antigen bundle heroku
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
+antigen bundle tmux
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -42,3 +43,7 @@ bindkey '^R' history-incremental-search-backward
 
 # adds miniconda to PATH
 PATH="$HOME/miniconda3/bin:$PATH"
+
+# set EDITOR
+export VISUAL=vim
+export EDITOR="$VISUAL"
