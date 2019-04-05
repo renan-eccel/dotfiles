@@ -160,6 +160,15 @@ au BufNewFile,BufRead *.py
     \ set fileformat=unix |
 
 "=========================================================================
+" Markdown
+"=========================================================================
+" set color column to limit text width
+au BufNewFile,BufRead *.md
+ \ set tw=79 |
+ \ set colorcolumn=80 |
+ \ highlight ColorColumn ctermbg=233 |
+
+"=========================================================================
 " latex
 "=========================================================================
 " Set the vim option updatetime to a smallet value, which is the fequency
