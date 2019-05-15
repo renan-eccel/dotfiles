@@ -62,6 +62,9 @@ nnoremap <C-H> <C-W><C-H>
 set foldmethod=indent
 set foldlevel=99
 
+" Enable copying to clipboard in ALL operations
+set clipboard+=unnamedplus
+
 " Enable folding with the spacebar
 nnoremap <space> za
 
