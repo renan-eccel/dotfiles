@@ -139,6 +139,10 @@ nmap <silent> <leader>ak :ALEPrevious<cr>
 " YCM GetDoc
 nmap <silent> <S-k> :YcmCompleter GetDoc<cr>
 
+" Search for vissualy selected text
+" https://vim.fandom.com/wiki/Search_for_visually_selected_text
+vnoremap // y/\V<C-r>=escape(@",'/\')<CR><CR>
+
 "=========================================================================
 " python
 "=========================================================================
