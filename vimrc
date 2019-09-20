@@ -62,6 +62,9 @@ nnoremap <C-H> <C-W><C-H>
 set foldmethod=indent
 set foldlevel=99
 
+" Enable copying to clipboard in ALL operations
+set clipboard+=unnamedplus
+
 " Enable folding with the spacebar
 nnoremap <space> za
 
@@ -135,6 +138,10 @@ nmap <silent> <leader>ak :ALEPrevious<cr>
 
 " YCM GetDoc
 nmap <silent> <S-k> :YcmCompleter GetDoc<cr>
+
+" Search for vissualy selected text
+" https://vim.fandom.com/wiki/Search_for_visually_selected_text
+vnoremap // y/\V<C-r>=escape(@",'/\')<CR><CR>
 
 "=========================================================================
 " python
