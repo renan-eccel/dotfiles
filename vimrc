@@ -178,9 +178,10 @@ autocmd Filetype tex setl updatetime=1
 " Set the PDF viewer. Using okular.
 let g:livepreview_previewer = 'okular'
 
+" set spellchecking
 " set color column to limit text width
 au BufNewFile,BufRead *.tex
- \ set spell |
+ \ set spell spelllang=pt |
  \ set colorcolumn=80 |
  \ highlight ColorColumn ctermbg=233 |
 
