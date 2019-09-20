@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="vimrc vim inputrc tmux.conf tmux zshrc antigen"    # list of files/folders to symlink in homedir
+files="vimrc vim inputrc tmux.conf tmux zshrc antigen speedswapper"    # list of files/folders to symlink in homedir
 
 ##########
 
@@ -29,3 +29,6 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+# start speedswaper
+xmodmap ~/.speedswapper
