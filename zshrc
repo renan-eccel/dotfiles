@@ -41,9 +41,6 @@ compinit
 # creates a key-binding for reverse-i-search (Ctrl+R)
 bindkey '^R' history-incremental-search-backward
 
-# Run .speedswapper making the swap between the Caps_Lock and the Esc keys
-xmodmap ~/.speedswapper
-
 # adds miniconda to PATH
 PATH="$HOME/miniconda3/bin:$PATH"
 
