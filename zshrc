@@ -44,9 +44,17 @@ bindkey '^R' history-incremental-search-backward
 # adds miniconda to PATH
 PATH="$HOME/miniconda3/bin:$PATH"
 
+# adds julia to PATH
+PATH="$PATH:/home/renan-eccel/julia-1.4.0/bin"
+
 # set EDITOR
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export JULIA_EDITOR=vim
+
+# set powerline
+. ~/miniconda3/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -63,3 +71,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/renan-eccel/.sdkman"
+[[ -s "/home/renan-eccel/.sdkman/bin/sdkman-init.sh" ]] && source "/home/renan-eccel/.sdkman/bin/sdkman-init.sh"

@@ -27,7 +27,7 @@ Plugin 'tpope/vim-sensible' " Defaults everyone can agree on
 Plugin 'tmhedberg/SimpylFold' 
 Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe' 
-" Plugin 'davidhalter/jedi-vim' " python autocompletion, goto, renaming, show docs
+Plugin 'davidhalter/jedi-vim' " python autocompletion, goto, renaming, show docs
 Plugin 'w0rp/ale' " linter, need to install tool for each language
 Plugin 'morhetz/gruvbox' " colorscheme
 Plugin 'scrooloose/nerdtree' " Tree file navigation
@@ -35,12 +35,23 @@ Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 Plugin 'vim-airline/vim-airline' " status/tabline
 Plugin 'machakann/vim-sandwich' " surround things with other things
 Plugin 'lervag/vimtex' " latex integration
+    let g:tex_flavor='latex'
+    let g:vimtex_view_method='zathura'
+    let g:vimtex_quickfix_mode=0
+
 Plugin 'tpope/vim-repeat' " enable repeating supported plugin maps with '.'
 Plugin 'christoomey/vim-tmux-navigator' " Seamless navigation between tmux panes and vim splits
+Plugin 'sirver/ultisnips' " - The ultimate snippet solution for Vim.
+    let g:UltiSnipsExpandTrigger = '<tab>'
+    let g:UltiSnipsJumpForwardTrigger = '<tab>'
+    let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
 " automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
@@ -213,11 +224,23 @@ if !exists('g:ycm_semantic_triggers')
 endif
 let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme
 
-" path to powerline vim bindings
-set rtp+=/usr/local/lib/python3.6/dist-packages/powerline/bindings/vim/
 
 " Always show statusline
 set laststatus=2
 
 " Use 256 colours (Use this setting only if your terminal supports 256 colours)
 set t_Co=256
+
+
+"=========================================================================
+" powerline: Vim statusline
+"=========================================================================
+"
+" path to powerline vim bindings
+" set rtp+=~/miniconda3/lib/python3.7/site-packages/powerline/bindings/vim
+
+" powerline setup
+" python3 from powerline.vim import setup as powerline_setup
+" python3 powerline_setup()
+" python3 del powerline_setup
+
