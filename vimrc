@@ -45,6 +45,7 @@ Plugin 'sirver/ultisnips' " - The ultimate snippet solution for Vim.
     let g:UltiSnipsExpandTrigger = '<tab>'
     let g:UltiSnipsJumpForwardTrigger = '<tab>'
     let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
+Plugin 'JuliaEditorSupport/julia-vim'
 
 
 " All of your Plugins must be added before the following line
@@ -224,7 +225,33 @@ if !exists('g:ycm_semantic_triggers')
 endif
 let g:ycm_semantic_triggers.tex = g:vimtex#re#youcompleteme
 
+"=========================================================================
+" julia
+"=========================================================================
+"
+" julia identation
+au BufNewFile,BufRead *.jl
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix |
 
+" set color column to limit text width
+au BufNewFile,BufRead *.jl
+ \ set tw=79 |
+ \ set colorcolumn=80 |
+ \ highlight ColorColumn ctermbg=233 |
+
+" enable matchit
+runtime macros/matchit.vim
+
+" map fuction block2assign and assign2block
+noremap <Leader>fb :call julia#toggle_function_blockassign()<CR>
+
+"=========================================================================
 " Always show statusline
 set laststatus=2
 
