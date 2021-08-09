@@ -1,0 +1,9 @@
+[core]
+    pager = delta
+
+[delta]
+    syntax-theme = Dracula
+    line-numbers = true
+[user]
+	name = renan-eccel
+	email = renan.eccel@mercadolivre.com

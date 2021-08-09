@@ -1,0 +1,4 @@
+/usr/local/Caskroom/miniconda/base
+/usr/local/Caskroom/miniconda/base/envs/slap
+/usr/local/Caskroom/miniconda/base/envs/test
+/usr/local/Caskroom/miniconda/base/envs/cebb
