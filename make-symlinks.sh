@@ -14,7 +14,8 @@ dir=~/dotfiles
 olddir=~/dotfiles_old
 
 # list of files/folders to symlink in homedir
-files=" bashrc conda condarc gitconfig ipython tmux tmux.conf vim vimrc zshrc"
+files=" bashrc conda condarc gitconfig ipython iterm.profile tmux tmux.conf
+        vim vimrc zshrc"
 
 ##########
 
