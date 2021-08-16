@@ -142,4 +142,11 @@ autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType vim setlocal shiftwidth=2 tabstop=2
 set backupcopy=yes
 
+" Defines ; as leader
 map ; <Leader>
+
+" neovim init.vim file cmd
+" runs python3 for neovim from a specific env
+" should resolve the need for neovim in each new python env when using nvim
+" add the following to your init.vim file
+let g:python3_host_prog = '/usr/local/Caskroom/miniconda/py38_4.10.3/python3'

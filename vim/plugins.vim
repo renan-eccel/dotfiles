@@ -71,6 +71,10 @@ let g:strip_whitespace_on_save=1
 let g:strip_whitelines_at_eof=1
 autocmd VimEnter * EnableWhitespace
 
+" vim-go
+let g:go_def_mode='gopls'
+let g:go_info_mode='gopls'
+
 " vim-slime
 let g:slime_target = "tmux"
 let g:slime_paste_file = "$HOME/.slime_paste"
