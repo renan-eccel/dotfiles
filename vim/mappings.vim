@@ -6,8 +6,8 @@ nnoremap j gj
 nnoremap k gk
 
 " Jump to the top and bottom line using K and J
-noremap J L
-noremap K H
+" noremap J L
+" noremap K H
 
 " Jump to start and end of line using the home row keys
 noremap H ^
