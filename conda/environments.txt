@@ -1,2 +1,6 @@
 /usr/local/Caskroom/miniconda/base
 /usr/local/Caskroom/miniconda/base/envs/slap
+/Users/reccel/miniconda3
+/Users/reccel/miniconda3/envs/SLAP
+/Users/reccel/miniconda3/envs/slap
+/usr/local/Caskroom/miniconda/base/envs/SLAP
