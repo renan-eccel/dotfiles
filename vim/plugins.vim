@@ -30,7 +30,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'airblade/vim-gitgutter'
 
   " Python
-  Plug 'vim-python/python-syntax'
+  Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
   " Go
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
