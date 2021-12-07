@@ -63,6 +63,9 @@ let g:lightline = {
 nnoremap <silent> <leader>f :Files<CR>
 nnoremap <silent> <leader>F :Files!<CR>
 nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <silent> <leader>B :Buffers!<CR>
+nnoremap <silent> <leader>a :Ag<CR>
+nnoremap <silent> <leader>A :Ag!<CR>
 
 " Vim Better Whitespaces
 let g:better_whitespace_filetypes_blacklist=['diff', 'gitcommit', 'unite', 'qf', 'help', 'markdown']
@@ -101,7 +104,7 @@ augroup END
 let g:slime_python_ipython = 1
 
 " GitGutter
-set updatetime=500
+set updatetime=100
 let g:gitgutter_sign_added = '|'
 let g:gitgutter_sign_modified = '|'
 let g:gitgutter_sign_removed = '|'

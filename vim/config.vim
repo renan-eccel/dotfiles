@@ -14,20 +14,23 @@ set splitright
 
 " Number of screen lines to keep above and below the cursor. This will make
 " some context visible around where you are working.
-set scrolloff=5
+set scrolloff=10
 
 " -----------------------------------------------------------------------------
 " => Displaying text
 " -----------------------------------------------------------------------------
 
 " Number of lines used for the command-line
-" set cmdheight=2 "Not need with Powerline
+set cmdheight=1 "Not need with Powerline
 
 " Show the line number for each line
 set number
 
 " Show the relative line number for each line
 set relativenumber
+
+" Show signcolumn
+set signcolumn=yes
 
 " -----------------------------------------------------------------------------
 " => Syntax, highlighting and spelling
@@ -36,7 +39,6 @@ set relativenumber
 " Enables italics
 let &t_ZH="\e[3m"
 let &t_ZR="\e[23m"
-
 
 " Enable syntax highlight
 syntax enable
@@ -69,7 +71,6 @@ set colorcolumn=80
 
 " Show cursor position below each window
 set ruler
-
 
 " Hide -- INSERT --
 set noshowmode
