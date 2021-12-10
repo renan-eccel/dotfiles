@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'christoomey/vim-tmux-navigator'
   Plug 'jpalardy/vim-slime'
+  Plug 'elzr/vim-json'
 
   " Text editing
   Plug 'machakann/vim-sandwich'

@@ -7,3 +7,5 @@
 [user]
 	name = renan-eccel
 	email = renan.eccel@mercadolivre.com
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
