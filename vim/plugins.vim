@@ -18,8 +18,6 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'christoomey/vim-tmux-navigator'
-  Plug 'jpalardy/vim-slime'
-  Plug 'elzr/vim-json'
 
   " Text editing
   Plug 'machakann/vim-sandwich'
@@ -39,6 +37,9 @@ call plug#begin('~/.vim/plugged')
   " Markdown
   Plug 'godlygeek/tabular'
   Plug 'tpope/vim-markdown'
+
+  " JSON
+  Plug 'elzr/vim-json'
 
   " Other
   Plug 'ntpeters/vim-better-whitespace'
@@ -89,20 +90,7 @@ let g:go_highlight_build_constraints = 1
 let g:go_highlight_generate_tags = 1
 let g:go_highlight_variable_declarations = 0
 let g:go_highlight_variable_assignments = 0
-
-
-" vim-slime
-let g:slime_target = "tmux"
-let g:slime_paste_file = "$HOME/.slime_paste"
-let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
-augroup python_execute
-    au!
-    au FileType python nmap <leader>s :SlimeSend1 ipython<CR>
-    au FileType python nmap <leader>a <Plug>SlimeLineSend
-    au FileType python xmap <leader>a <Plug>SlimeRegionSend
-    au FileType python nmap <leader>d <Plug>SlimeSendCell
-augroup END
-let g:slime_python_ipython = 1
+au FileType go nmap <leader>r <Plug>(go-run)
 
 " GitGutter
 set updatetime=100
@@ -125,4 +113,7 @@ inoremap <silent><expr> <Tab>
 " Use <Tab> and <S-Tab> to navigate the completion list:
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" COC-mappings
+nmap <leader>> <plug>(coc-diagnostic-next-error)
+nmap <leader>< <plug>(coc-diagnostic-previous-error)
 
