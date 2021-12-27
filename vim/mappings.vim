@@ -1,4 +1,5 @@
-" ----------------------------------------------------------------------------- " => Keys mapping
+" -----------------------------------------------------------------------------
+" => Keys mapping
 " -----------------------------------------------------------------------------
 
 " Improve up/down movement on wrapped lines (vimbits)
@@ -21,9 +22,6 @@ nnoremap <c-l> <c-w><c-l>
 
 " F10 cleans up the search history
 map <f10> :let @/ = ""<cr>
-
-" Select all text in current buffer
-map <Leader>a ggVG
 
 " Use system clipboard with C-y and C-p
 nnoremap <C-y> "+y

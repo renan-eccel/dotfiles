@@ -14,7 +14,7 @@ set splitright
 
 " Number of screen lines to keep above and below the cursor. This will make
 " some context visible around where you are working.
-set scrolloff=10
+set scrolloff=15
 
 " -----------------------------------------------------------------------------
 " => Displaying text
