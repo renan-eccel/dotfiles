@@ -5,3 +5,5 @@
 /Users/reccel/miniconda3/envs/slap
 /usr/local/Caskroom/miniconda/base/envs/SLAP
 /usr/local/Caskroom/miniconda/base/envs/BinDesign
+/usr/local/Caskroom/miniconda/base/envs/bindesign
+/usr/local/Caskroom/miniconda/base/envs/algorithm
