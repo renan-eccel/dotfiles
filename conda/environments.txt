@@ -7,3 +7,4 @@
 /usr/local/Caskroom/miniconda/base/envs/BinDesign
 /usr/local/Caskroom/miniconda/base/envs/bindesign
 /usr/local/Caskroom/miniconda/base/envs/algorithm
+/Applications/JupyterLab.app/Contents/Resources/jlab_server

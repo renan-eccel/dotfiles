@@ -4,3 +4,5 @@ c.TerminalInteractiveShell.extra_open_editor_shortcuts=True
 c.TerminalInteractiveShell.highlighting_style = "dracula"
 c.TerminalInteractiveShell.true_color = True
 c.TerminalInteractiveShell.prompts_class.in_template = 'In [{count}] : {color.Blue}'
+c.InteractiveShellApp.extensions = ['autoreload']
+c.InteractiveShellApp.exec_lines = ['%autoreload 2']
